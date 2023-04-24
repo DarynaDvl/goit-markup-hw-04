@@ -131,6 +131,8 @@ body {
   color: var(--color-white);
   background-color: var(--color-ocean);
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* ================= /COMPONENTS =================*/
@@ -145,6 +147,8 @@ body {
   align-items: center;
   justify-content: space-between;
   border-radius: 1px;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-nav {
@@ -215,6 +219,8 @@ body {
     ),
     url(../images/bg.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .main-title {
@@ -287,7 +293,6 @@ body {
 }
 
 .section-title {
-  /* font-family: inherit; */
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
   font-weight: 700;
@@ -399,6 +404,7 @@ body {
 
 .customers-section-title {
   margin-bottom: 72px;
+  line-height: 1.1;
 }
 
 .customers-list {
@@ -478,6 +484,16 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.item-img {
+  display: block;
+}
+
+.item-img:hover,
+.item-img:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .portfolio-card-text {
   padding: 32px 16px;
   background: var(--color-white);
@@ -509,6 +525,11 @@ body {
 .footer-container {
   display: flex;
   text-align: left;
+  align-items: baseline;
+}
+
+.logo-and-paragraph {
+  margin-right: 120px;
 }
 
 .footer-logotype {
@@ -528,8 +549,13 @@ body {
 
 .social-media-p {
   min-width: 96px;
+  font-weight: 500;
   margin-bottom: 16px;
   color: var(--color-white);
+}
+
+.footer-social-list {
+  gap: 16px;
 }
 
 .social-container {
