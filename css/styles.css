@@ -258,14 +258,14 @@ body {
   width: calc((100% - 72px) / 4);
 }
 
-.secondary-section-list-link {
+.secondary-section-list-item-svg {
+  background-color: var(--color-cloud);
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-cloud);
+  height: 112px;
+  width: 264px;
   border-radius: 4px;
-  min-width: 264px;
-  min-height: 112px;
 }
 
 .subtitle {
@@ -400,6 +400,10 @@ body {
 .customers-section {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.customers-section-container {
+  padding: 32px 0;
 }
 
 .customers-section-title {
