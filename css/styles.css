@@ -417,19 +417,20 @@ body {
   gap: 24px;
 }
 
+.customers-list-item {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+
 .customers-list-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 168px;
-  height: 88px;
+  width: 100%;
+  height: 100%;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   color: var(--color-light-slate);
-}
-
-.customers-list-item {
-  width: calc((100% - 120px) / 6);
 }
 
 .customers-list-link:hover,
