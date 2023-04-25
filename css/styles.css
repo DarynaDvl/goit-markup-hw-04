@@ -567,10 +567,6 @@ body {
   gap: 16px;
 }
 
-.social-container {
-  margin-left: 120px;
-}
-
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
   background-color: var(--color-green);
